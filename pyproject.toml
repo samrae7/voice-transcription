@@ -6,10 +6,12 @@ authors = ["Samuel Rae <samuelrae@Samuels-Air.fritz.box>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 torch = "2.5.1"
-numpy = "^2.2.0"
-
+numpy = "2.0.0"
+datasets = "^3.2.0"
+soundfile = "^0.12.1"
+torchaudio = {version = "^2.5.1", extras = ["full"]}
 
 [build-system]
 requires = ["poetry-core"]
