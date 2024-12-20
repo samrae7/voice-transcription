@@ -12,6 +12,7 @@ numpy = "2.0.0"
 datasets = "^3.2.0"
 soundfile = "^0.12.1"
 torchaudio = {version = "^2.5.1", extras = ["full"]}
+librosa = "^0.10.2.post1"
 
 [build-system]
 requires = ["poetry-core"]
