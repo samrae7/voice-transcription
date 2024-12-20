@@ -1,6 +1,6 @@
 from datasets import load_dataset, load_dataset_builder
 
-def validate_ami_dataset():
+def validate_ami_dataset(num_samples=5):
     ###
     # This function is used to validate the dataset has loaded, and to print the first few samples
     ###
@@ -22,7 +22,7 @@ def validate_ami_dataset():
     print("\nExample samples:")
     print("===============")
     
-    for idx in range(5):
+    for idx in range(num_samples):
         sample = ds[idx]
         print(f"\nSample {idx}:")
         print("------------")
